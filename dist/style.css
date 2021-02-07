@@ -32,14 +32,51 @@ main {
 }
 
 #projects {
-    background-color: green;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 20px rgba(54, 54, 54, 0.2);    
     flex: 4;
     margin-right: 50px;
     border-radius: 30px;
 }
 
 #tasks {
-    background-color: blue;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 20px rgba(54, 54, 54, 0.2);    
     flex: 8;
     border-radius: 30px;
 }
+
+form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input[type="text"] {
+    flex: 1;
+}
+
+input[type="text"], 
+input[type="date"],
+select {
+    border: none;
+    border-bottom: 2px solid crimson;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+::placeholder {
+    font-size: large;
+}
+
+input[type="submit"] {
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background: crimson;
+    font-size: large;
+    border: none;
+}
+
