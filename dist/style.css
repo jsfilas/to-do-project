@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+body {
+    background: crimson;
+}
+
+#top {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav p {
+    margin-left: 40px;
+    color: white;
+    font-size: xx-large;
+}
+
+main {
+    min-height: calc(100vh - 80px);
+    background: white;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+
+}
+
+#projects {
+    background-color: green;
+    flex: 4;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+#tasks {
+    background-color: blue;
+    flex: 8;
+    border-radius: 30px;
+}
